@@ -3,9 +3,7 @@ function receivesAFunction(callback) {
 }
 
 function returnsANamedFunction(){
-  var nF
-  nF = function name() {}
-  return nF
+  return nF = function name() {}
 }
 
 function returnsAnAnonymousFunction() {
